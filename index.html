@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translater</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <header>Text Translater</header>
+    <div class="wrapper">
+      <div class="inner1">
+        <textarea
+          cols="30"
+          rows="10"
+          class="txtarea1"
+          placeholder="Enter Text"
+        ></textarea>
+        <textarea
+          cols="30"
+          rows="10"
+          class="txtarea2"
+          placeholder="Translation"
+        ></textarea>
+      </div>
+
+      <div class="inner2">
+        <div class="from">
+          <select>
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="sinhala">Sinhala</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Russian">Russian</option>
+          </select>
+          <div class="copyImg1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+              <path
+                d="M448 384H256c-35.3 0-64-28.7-64-64V64c0-35.3 28.7-64 64-64H396.1c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9V320c0 35.3-28.7 64-64 64zM64 128h96v48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H256c8.8 0 16-7.2 16-16V416h48v32c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192c0-35.3 28.7-64 64-64z"
+              />
+            </svg>
+          </div>
+        </div>
+        <button class="img">
+          <svg
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M6.99 11L3 15l3.99 4v-3H14v-2H6.99v-3zM21 9l-3.99-4v3H10v2h7.01v3L21 9z"
+            ></path>
+          </svg>
+        </button>
+        <div class="to">
+          <select>
+            <option value="english">English</option>
+            <option value="hindi">Hindi</option>
+            <option value="sinhala">Sinhala</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Russian">Russian</option>
+          </select>
+          <div class="copyImg2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+              <path
+                d="M448 384H256c-35.3 0-64-28.7-64-64V64c0-35.3 28.7-64 64-64H396.1c12.7 0 24.9 5.1 33.9 14.1l67.9 67.9c9 9 14.1 21.2 14.1 33.9V320c0 35.3-28.7 64-64 64zM64 128h96v48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16H256c8.8 0 16-7.2 16-16V416h48v32c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192c0-35.3 28.7-64 64-64z"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <button id="btnTranslate">Translate</button>
+    </div>
+  </body>
+</html>

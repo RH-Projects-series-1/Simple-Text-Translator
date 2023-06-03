@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background: #fc00ff;
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+    background: linear-gradient(to right, #00dbde, #fc00ff); 
+
+}
+header{
+
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3.2rem;
+    font-family: ubuntu;
+    font-weight: bold;
+    opacity: 0.7;
+    text-shadow: 0 0 2px white;
+
+}
+
+.wrapper {
+    background-color: red;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(19, 5, 5, 0.18);
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    box-shadow: 0 0 7px black;
+    padding: 20px;
+    padding-bottom: 40px;
+
+}
+
+.img {
+    width: 5%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    border-radius: 25%;
+    background: transparent;
+    border: none;
+    outline: none;
+
+}
+.img:hover{
+   background-color: rgba(0, 0, 0, 0.253);
+   cursor: pointer;
+}
+
+.inner1 {
+
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+
+
+
+}
+
+.inner2 {
+    background: transparent;
+    width: 100%;
+    height: 10%;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+
+
+}
+
+.inner1 textarea {
+    resize: none;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    outline: none;
+    font-family: Ubuntu;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 5PX black;
+    padding: 5px;
+    text-shadow: 0 0 2px white;
+}
+
+.inner1 textarea::placeholder {
+    font-weight: bold;
+    font-size: 1.7rem;
+    opacity: 0.5;
+    color: black;
+    text-shadow: 0 0 2px white;
+}
+
+select {
+    width: 91%;
+    height: 100%;
+background-color: transparent;
+    padding: 10px;
+    outline: none;
+    font-family: ubuntu;
+    font-size: 1rem;
+    border: 1px solid black;
+    
+}
+
+
+select:hover{
+    cursor: pointer;
+}
+
+.from {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+.to {
+    margin-left: 10px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    border: 1px solid black;
+}
+.copyImg1,.copyImg2{
+    width: 50px;
+    height: 100%;
+padding-top: 6px;
+padding-left: 5px;
+border: 1px solid black;
+
+
+}
+
+.copyImg1>svg , .copyImg2>svg{
+    width: 35px;
+    height: 35px;
+}
+.copyImg1:hover,.copyImg2:hover{
+    cursor: pointer;
+}
+#btnTranslate{
+    width: 25%;
+    height: 13%;
+    margin-top: 20px;
+    outline: none;
+    border:  1px solid black;
+    box-shadow: 0 0 5px black;   
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    border-radius: 0.3rem;
+    transition-property: "background-color";
+    transition: 0.2s ease-in-out;
+    background: #a720c9f5;  
+    font-weight: bold;
+
+
+}
+#btnTranslate:hover{
+    cursor: pointer;
+    background-color: hsl(181, 100%, 44%);
+
+}
+#btnTranslate:active{
+    background-color: hsl(181, 100%, 44%);
+}
